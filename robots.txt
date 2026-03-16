@@ -17,4 +17,4 @@ Disallow: /*.bak$
 Disallow: /*.log$
 
 # Define o Sitemap do site
-Sitemap: https://gvvideos.github.io/bate-papo/sitemaps.xml
+Sitemap: https://gvvideos.github.io/bate-papo/
