@@ -3,14 +3,12 @@ User-agent: *
 Allow: /
 
 
-Disallow: /github/
-Disallow: /picpay/
 Disallow: /admin/
 Disallow: /backup/
 Disallow: /minha-conta/
 Disallow: /documentos/
 Disallow: /senha/
-Disallow: /carrinho/
+
 
 Disallow: /*.sql$
 Disallow: /*.bak$
