@@ -1,11 +1,20 @@
-
 User-agent: *
 Allow: /
 
+# Páginas específicas para não rastrear
+Disallow: /termos.html
+Disallow: /politica.html
+Disallow: /contato.html
+# Disallow: /videos.html 
+# Disallow: /imagens.html 
+Disallow: /homem.html
 
+# Bloquear arquivos sensíveis e de backup
 Disallow: /*.sql$
 Disallow: /*.bak$
 Disallow: /*.log$
+Disallow: /*.zip$
+Disallow: /*.gz$
 
-# Define o Sitemap do site
+# Sitemap
 Sitemap: https://gvvideos.github.io
