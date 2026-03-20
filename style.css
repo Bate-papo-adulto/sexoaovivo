@@ -115,34 +115,42 @@ h6 {  tamanho da fonte : 1,0 em ;
     
        
       
+
+
+
   .contador-wrapper {
-    exibição : flexível ;
-    justificar-conteúdo : centralizado ;
-    margem : 20px 0 ;   }​ 
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;  }
 
   
   .contador {
-    borda : 2 px  sólida #333;
-    raio da borda : 8 px ;
-    preenchimento : 10 px ;
-    cor de fundo : #f9f9f9;
-    exibição : inline-flex ;
-    flex-direction : coluna ;
-    alinhar-itens : centro ;
-    box - shadow : 2px 2px 5px rgba ( 0 , 0 , 0 , 0.2 ) ; }  ​     
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    display: inline-flex;
+    flex-direction: column; 
+    align-items: center; 
+    box-shadow: 2px 2px 5px   rgba(0,0,0,0.2);  }
 
   
   .contador img {
-    largura-máxima : 100 % ;
-    altura : automática ;
-    margem- inferior : 5px ;   }
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;  }
 
   
-  .contador a: último-filho  {
-    família-da-fonte : script de pincel  ;
-    tamanho da fonte : 10 px ;
-    cor : #555;
-    text-decoration : none ;    }
+  .contador a:last-child {
+    font-family: brush script;
+    font-size: 10px;
+    color: #555;
+    text-decoration: none;   }
+    
+    
+    
+
+
     
     
     
